@@ -10,8 +10,42 @@
 
 
 
+body {
+    font-family: 'Poppins', sans-serif;
+}
 
 
+.navbar {
+
+    font-weight: 700;
+    .navbar-brand-centered {
+
+        font-size: 30px;
+
+    }
+
+    .dropdown-toggle {
+      cursor: pointer;
+
+      &::after {
+        display: none;
+      }
+    }
+
+
+    #dropdown-custom {
+        width: 105vw;
+        left: -35px;
+        padding: 40px;
+        background-color: $primary;
+    }
+
+
+
+
+
+
+}
 
 @media (min-width: 768px) {
     .navbar-brand-centered {
@@ -20,8 +54,7 @@
         display: block;
         width: 180px;
         text-align: center;
-        background-color: #eee;
-        font-size: 40px;
+
     }
 
     .navbar>.container .navbar-brand-centered,

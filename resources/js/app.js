@@ -7,3 +7,8 @@
 
 require('./bootstrap');
 
+$('.dropdown').hover(function() {
+    $(this).find('#dropdown-custom').stop(true, true).delay(200).fadeIn(300);
+}, function() {
+    $(this).find('#dropdown-custom').stop(true, true).delay(200).fadeOut(300);
+});
