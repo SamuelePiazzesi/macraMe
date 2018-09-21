@@ -11,23 +11,53 @@
 
         <div class="collapse navbar-collapse" id="navbarLinks">
             <ul class="navbar-nav mr-auto">
-                <li class="nav-item dropdown " id="dropdown-hover">
-                    <a class="nav-link dropdown-toggle"  id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <li class="nav-item dropdown"  id="dropdown-hover">
+                    <a class="nav-link dropdown-toggle" href="" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         Shop <i class="fas fa-caret-down"></i>
                     </a>
                     <div class="dropdown-menu" id="dropdown-custom" aria-labelledby="navbarDropdown">
-                       <div class="left">
-                            <div>
-                            </div>
-                            <div>
+                        <div class="dropdown-container">
+                            <div class="left">
+
+                                    <h1>Esplora</h1>
+                                    <p>
+                                        <a href="#">I più venduti</a>
+                                    </p>
+                                    <p>
+                                        <a href="#">Nuovi arrivi</a>
+                                    </p>
+                                    <p>
+                                        <a href="#">In saldo</a>
+                                    </p>
 
                             </div>
-                       </div>
-                       <div>
-
-                       </div>
-                        <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="#">Something else here</a>
+                            <div class="right">
+                                <div>
+                                    <a href="#">
+                                        <img class="" src="{{ asset('/img/photo.png') }}">
+                                        <p>Macrame</p>
+                                    </a>
+                                </div>
+                                <div>
+                                    <a href="#">
+                                        <img class="" src="{{ asset('/img/equip.png') }}">
+                                        <p>Handmade</p>
+                                    </a>
+                                </div>
+                                <div>
+                                    <a href="#">
+                                        <img class="" src="{{ asset('/img/land.png') }}">
+                                        <p>Cazzi finti</p>
+                                    </a>
+                                </div>
+                                <div>
+                                    <a href="#">
+                                        <img class="" src="{{ asset('/img/camera.png') }}">
+                                        <p>Foto</p>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </li>
               <li class="nav-item">
