@@ -1,15 +1,12 @@
 <nav class="navbar navbar-expand-md navbar-primary  fixed-top navbar-laravel">
     <div class="container-fluid">
+        <button class="navbar-toggler" type="button" id="toggle-button" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="{{ __('Toggle navigation') }}">
+                <i class="fas fa-bars" ></i>
+        </button>
         <a class="navbar-brand navbar-brand-centered" href="{{ url('/') }}">
             {{ config('app.name', 'macraMe') }}
         </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarLinks" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="{{ __('Toggle navigation') }}">
-            <span class="navbar-toggler-icon">
-                <i class="fas fa-bars"></i>
-            </span>
-        </button>
-
-        <div class="collapse navbar-collapse" id="navbarLinks">
+        <div class="collapse navbar-collapse" >
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item dropdown"  id="dropdown-hover">
                     <a class="nav-link dropdown-toggle" href="" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -74,22 +71,53 @@
                 <li class="nav-item">
                   <a class="nav-link" href="#">il nostro Blog</a>
                 </li>
-                <li class="nav-item dropdown " id="dropdown-hover">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        <i class="fas fa-ellipsis-h"></i>
-                    </a>
-                    <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="#">Action</a>
-                        <a class="dropdown-item" href="#">Another action</a>
-                        <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="#">Something else here</a>
-                    </div>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contattaci</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#"><i class="fas fa-shopping-cart"></i></a>
-                  </li>
+                </li>
               </ul>
           </div>
+        <a class="navbar-toggler" href="#">
+
+            <i class="fas fa-shopping-cart" ></i>
+        </a>
     </div>
+    <div  id="toggle-menu">
+        <div>
+            <a>
+                <p>Nuovi arrivi</p>
+            </a>
+        </div>
+        <div>
+            <a>
+                <p>Più venduti</p>
+            </a>
+        </div>
+        <div>
+            <a>
+                <p>In offerta</p>
+            </a>
+        </div>
+        <div>
+
+                <h1>Categorie</h1>
+
+        </div>
+        <div id="sales">
+            <a>
+                <p>10% per i nuovi prodotti!</p>
+            </a>
+        </div>
+        <div id="contacts">
+           <span>
+               <a>Il nostro blog</a>
+               <a>La nostra storia</a>
+               <a>Contattaci</a>
+           </span>
+        </div>
+    </div>
+
 </nav>
 

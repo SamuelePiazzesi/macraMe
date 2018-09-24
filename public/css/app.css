@@ -10477,6 +10477,8 @@ body {
 
 .navbar {
   font-weight: 700;
+  -webkit-box-shadow: 0 2px 1px -1px #b7b7b7;
+          box-shadow: 0 2px 1px -1px #b7b7b7;
 }
 
 .navbar .navbar-brand-centered {
@@ -10608,6 +10610,96 @@ body {
   margin-top: 10px;
 }
 
+.navbar #toggle-menu {
+  background: #3f89a6;
+  height: 100vh;
+  width: 100vw;
+  position: absolute;
+  overflow-y: scroll;
+  left: 0px;
+  top: 75px;
+  z-index: 50000;
+}
+
+@media (min-width: 768px) {
+  .navbar #toggle-menu {
+    visibility: hidden;
+  }
+}
+
+.navbar #toggle-menu div {
+  height: 75px;
+  border-bottom: 2px solid #3f89a6;
+  background: #385d7a;
+}
+
+.navbar #toggle-menu div a {
+  display: block;
+  height: 100%;
+  width: 100%;
+  padding: 0 40px;
+  cursor: pointer;
+}
+
+.navbar #toggle-menu div a p {
+  font-size: 17px;
+  color: white;
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+
+.navbar #toggle-menu div h1 {
+  display: block;
+  padding: 20px 40px;
+  font-size: 17px;
+  font-weight: 500;
+  margin: 20px 0;
+  color: white;
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.navbar #toggle-menu div#sales {
+  height: 120px;
+  margin-top: 20px;
+  border-bottom: 2px solid #3f89a6;
+}
+
+.navbar #toggle-menu div#contacts {
+  height: 200px;
+  margin-top: 20px;
+  border-bottom: 2px solid #3f89a6;
+}
+
+.navbar #toggle-menu div#contacts span {
+  position: relative;
+  display: block;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+
+.navbar #toggle-menu div#contacts span a {
+  font-size: 17px;
+  margin: 20px 0;
+  color: white;
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.navbar .navbar-brand-centered {
+  margin: auto;
+  display: block;
+  width: 180px;
+  text-align: center;
+}
+
 @media (min-width: 768px) {
   .navbar-brand-centered {
     position: absolute;
@@ -10619,7 +10711,7 @@ body {
 
   .navbar > .container .navbar-brand-centered,
   .navbar > .container-fluid .navbar-brand-centered {
-    margin-left: -80px;
+    margin-left: -118px;
   }
 }
 

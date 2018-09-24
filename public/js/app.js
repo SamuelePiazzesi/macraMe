@@ -13711,6 +13711,12 @@ $('.dropdown').hover(function () {
     $(this).find('#dropdown-custom').stop(true, true).delay(200).fadeOut(300);
 });
 
+$(document).ready(function () {
+    $("#toggle-button, #mobile-toggle-button").click(function () {
+        $("#toggle-menu").slideToggle();
+    });
+});
+
 /***/ }),
 /* 12 */
 /***/ (function(module, exports, __webpack_require__) {
