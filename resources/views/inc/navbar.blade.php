@@ -100,10 +100,14 @@
                 <p>In offerta</p>
             </a>
         </div>
-        <div>
-
-                <h1>Categorie</h1>
-
+        <div id="cats">
+            <h1>Categorie</h1>
+            <a>
+                Macramè
+            </a>
+            <a>
+                Handmade
+            </a>
         </div>
         <div id="sales">
             <a>

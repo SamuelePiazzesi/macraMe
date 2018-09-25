@@ -10471,8 +10471,15 @@ a.text-dark:focus {
   }
 }
 
+html {
+  height: 100%;
+  min-height: 100%;
+}
+
 body {
   font-family: 'Poppins', sans-serif;
+  height: 100%;
+  min-height: 100%;
 }
 
 .navbar {
@@ -10488,6 +10495,14 @@ body {
 .navbar a:hover {
   color: #385d7a;
   opacity: 0.6;
+}
+
+.navbar button:focus {
+  outline: none;
+}
+
+.navbar i {
+  color: #385d7a;
 }
 
 .navbar .dropdown-toggle {
@@ -10613,7 +10628,7 @@ body {
 .navbar #toggle-menu {
   background: #3f89a6;
   height: 100vh;
-  width: 100vw;
+  width: 104vw;
   position: absolute;
   overflow-y: scroll;
   left: 0px;
@@ -10650,17 +10665,23 @@ body {
           transform: translateY(-50%);
 }
 
-.navbar #toggle-menu div h1 {
+.navbar #toggle-menu div#cats {
+  height: 120px;
+}
+
+.navbar #toggle-menu div#cats h1 {
   display: block;
-  padding: 20px 40px;
+  padding: 20px 40px 0 40px;
   font-size: 17px;
-  font-weight: 500;
-  margin: 20px 0;
+  font-weight: 700;
+  margin-top: 20px;
   color: white;
-  position: relative;
-  top: 50%;
-  -webkit-transform: translateY(-50%);
-  transform: translateY(-50%);
+}
+
+.navbar #toggle-menu div#cats a {
+  height: auto;
+  color: #dffcff;
+  font-weight: 400;
 }
 
 .navbar #toggle-menu div#sales {
