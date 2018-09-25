@@ -1,4 +1,4 @@
-<nav class="navbar navbar-expand-md navbar-primary  fixed-top navbar-laravel">
+<nav class="navbar navbar-expand-md navbar-primary fixed-top ">
     <div class="container-fluid">
         <button class="navbar-toggler" type="button" id="toggle-button" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="{{ __('Toggle navigation') }}">
                 <i class="fas fa-bars" ></i>

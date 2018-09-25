@@ -19,11 +19,21 @@ body {
     min-height: 100%;
 }
 
+.content {
+    position: relative;
+    top: 54px;
+    margin-bottom: 50px;
+    min-height: calc(100vh - 220px);
+
+
+}
+
 
 .navbar {
 
+    background-color: #fff;
     font-weight: 700;
-    box-shadow: 0 2px 1px -1px #b7b7b7;
+    box-shadow: 0 2px 1px -1px #dbdbdb;
     .navbar-brand-centered {
 
         font-size: 30px;
@@ -132,7 +142,7 @@ body {
                     margin-left: 40px;
                     margin-right: 0px;
                     padding: 10px;
-                    
+
                     @media max-width {
 
                     }
@@ -189,7 +199,7 @@ body {
            position: absolute;
            overflow-y: scroll;
            left: 0px;
-           top: 75px;
+           top: 73px;
            z-index: 50000;
 
 
@@ -296,5 +306,99 @@ body {
     .navbar>.container .navbar-brand-centered,
     .navbar>.container-fluid .navbar-brand-centered {
         margin-left: -118px;
+    }
+}
+
+
+#showcase {
+
+    .carousel-item {
+        height: 600px;
+
+        .carousel-caption {
+
+            top: 50%;
+            transform: translateY(-50%);
+            bottom: initial;
+            -webkit-transform-style: preserve-3d;
+            -moz-transform-style: preserve-3d;
+            transform-style: preserve-3d;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+            &.white {
+
+                h1 {
+                    text-shadow: 0px 0px 15px rgba(0,0,0,0.2);
+                    font-size: 70px;
+                    font-weight: 700 !important;
+                    color: #fff;
+
+                    @include media-breakpoint-down(sm) {
+                        font-size: 30px;
+                    }
+                }
+
+                button {
+                    width: 30%;
+                    padding: 10px;
+                    border: 2px solid #fff;
+                    color: #fff;
+
+                    &:hover {
+                        background-color: #fff;
+                        color: #333;
+                    }
+                }
+            }
+
+            &.black {
+
+                h1 {
+                    text-shadow: 0px 0px 15px rgba(0,0,0,0.2);
+                    font-size: 70px;
+                    font-weight: 700 !important;
+                    color: #333;
+
+                    @include media-breakpoint-down(sm) {
+                        font-size: 30px;
+                    }
+                }
+
+                button {
+                    width: 30%;
+                    padding: 10px;
+                    border: 2px solid #333;
+
+                    &:hover {
+                        background-color: #333;
+                    }
+                }
+            }
+
+
+        }
+    }
+
+    .carousel-image-1 {
+        background: url('../../public/img/showcase/show1.jpg') no-repeat center center fixed;
+        background-size: cover;
+        overflow: hidden;
+
+
+    }
+
+    .carousel-image-2 {
+        background: url('../../public/img/showcase/show2.jpg')no-repeat center center fixed;
+        background-size: cover;
+        overflow: hidden;
+
+    }
+
+    .carousel-image-3 {
+        background: url('../../public/img/showcase/show3.jpg')no-repeat center center fixed;
+        background-size: cover;
+        overflow: hidden;
     }
 }

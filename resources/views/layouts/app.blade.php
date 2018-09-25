@@ -25,7 +25,7 @@
 <body>
 
         @include('inc.navbar')
-        <main class="container py-4">
+        <main class="content">
             @yield('content')
         </main>
 

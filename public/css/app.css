@@ -10482,10 +10482,18 @@ body {
   min-height: 100%;
 }
 
+.content {
+  position: relative;
+  top: 54px;
+  margin-bottom: 50px;
+  min-height: calc(100vh - 220px);
+}
+
 .navbar {
+  background-color: #fff;
   font-weight: 700;
-  -webkit-box-shadow: 0 2px 1px -1px #b7b7b7;
-          box-shadow: 0 2px 1px -1px #b7b7b7;
+  -webkit-box-shadow: 0 2px 1px -1px #dbdbdb;
+          box-shadow: 0 2px 1px -1px #dbdbdb;
 }
 
 .navbar .navbar-brand-centered {
@@ -10632,7 +10640,7 @@ body {
   position: absolute;
   overflow-y: scroll;
   left: 0px;
-  top: 75px;
+  top: 73px;
   z-index: 50000;
 }
 
@@ -10734,5 +10742,94 @@ body {
   .navbar > .container-fluid .navbar-brand-centered {
     margin-left: -118px;
   }
+}
+
+#showcase .carousel-item {
+  height: 600px;
+}
+
+#showcase .carousel-item .carousel-caption {
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  bottom: initial;
+  -webkit-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#showcase .carousel-item .carousel-caption.white h1 {
+  text-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
+  font-size: 70px;
+  font-weight: 700 !important;
+  color: #fff;
+}
+
+@media (max-width: 767.98px) {
+  #showcase .carousel-item .carousel-caption.white h1 {
+    font-size: 30px;
+  }
+}
+
+#showcase .carousel-item .carousel-caption.white button {
+  width: 30%;
+  padding: 10px;
+  border: 2px solid #fff;
+  color: #fff;
+}
+
+#showcase .carousel-item .carousel-caption.white button:hover {
+  background-color: #fff;
+  color: #333;
+}
+
+#showcase .carousel-item .carousel-caption.black h1 {
+  text-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
+  font-size: 70px;
+  font-weight: 700 !important;
+  color: #333;
+}
+
+@media (max-width: 767.98px) {
+  #showcase .carousel-item .carousel-caption.black h1 {
+    font-size: 30px;
+  }
+}
+
+#showcase .carousel-item .carousel-caption.black button {
+  width: 30%;
+  padding: 10px;
+  border: 2px solid #333;
+}
+
+#showcase .carousel-item .carousel-caption.black button:hover {
+  background-color: #333;
+}
+
+#showcase .carousel-image-1 {
+  background: url(/images/show1.jpg?2585fde97edee9d465288719f74479e1) no-repeat center center fixed;
+  background-size: cover;
+  overflow: hidden;
+}
+
+#showcase .carousel-image-2 {
+  background: url(/images/show2.jpg?17d6fe6e93e10d9a6a97a60e835a126b) no-repeat center center fixed;
+  background-size: cover;
+  overflow: hidden;
+}
+
+#showcase .carousel-image-3 {
+  background: url(/images/show3.jpg?91cf25c44f37006b220908c68d1138dd) no-repeat center center fixed;
+  background-size: cover;
+  overflow: hidden;
 }
 
