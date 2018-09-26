@@ -31,25 +31,25 @@
                             <div class="right">
                                 <div>
                                     <a href="#">
-                                        <img class="" src="{{ asset('/img/photo.png') }}">
+                                        <img class="" src="{{ asset('/images/photo.png') }}">
                                         <p>Macrame</p>
                                     </a>
                                 </div>
                                 <div>
                                     <a href="#">
-                                        <img class="" src="{{ asset('/img/equip.png') }}">
+                                        <img class="" src="{{ asset('/images/equip.png') }}">
                                         <p>Handmade</p>
                                     </a>
                                 </div>
                                 <div>
                                     <a href="#">
-                                        <img class="" src="{{ asset('/img/land.png') }}">
+                                        <img class="" src="{{ asset('/images/land.png') }}">
                                         <p>Cazzi finti</p>
                                     </a>
                                 </div>
                                 <div>
                                     <a href="#">
-                                        <img class="" src="{{ asset('/img/camera.png') }}">
+                                        <img class="" src="{{ asset('/images/camera.png') }}">
                                         <p>Foto</p>
                                     </a>
                                 </div>
@@ -85,7 +85,7 @@
         </a>
     </div>
     <div  id="toggle-menu">
-        <div>
+        <div class="mt-4">
             <a>
                 <p>Nuovi arrivi</p>
             </a>

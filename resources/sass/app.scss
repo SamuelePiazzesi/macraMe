@@ -139,13 +139,11 @@ body {
                 div {
                     width: 27%;
                     display: inline-block;
-                    margin-left: 40px;
+                    margin-left: 0px;
                     margin-right: 0px;
                     padding: 10px;
 
-                    @media max-width {
 
-                    }
 
                     a {
                         text-decoration: none;
@@ -193,7 +191,7 @@ body {
         }
 
 
-           background: #A7BED3;
+           background: #212d47;
            height: 100vh;
            width: 104vw;
            position: absolute;
@@ -207,7 +205,7 @@ body {
            div {
 
                height: 75px;
-               border-bottom: 2px solid #3f89a6;
+               border-bottom: 2px solid #212d47;
                background: $primary;
 
                a {
@@ -255,13 +253,13 @@ body {
                &#sales {
                    height: 120px;
                    margin-top: 20px;
-                   border-bottom: 2px solid #3f89a6;
+                   border-bottom: 2px solid #212d47;
                }
 
                &#contacts {
                    height: 200px;
                    margin-top: 20px;
-                   border-bottom: 2px solid #3f89a6;
+                   border-bottom: 2px solid #212d47;
 
                    span {
                        position: relative;
@@ -420,7 +418,7 @@ body {
 
             div {
 
-                height: 20vw;
+                height: 16vw;
                 display: flex;
                 flex-direction: column;
                 justify-content: center;
@@ -431,6 +429,71 @@ body {
                     height: 60vw;
                     margin-bottom: 10px;
                 }
+
+                h2 {
+
+                    @include media-breakpoint-only(lg) {
+
+                        font-size: 20px;
+                    }
+
+                    font-weight: 700;
+
+                    &.white {
+                        color: #fff;
+                        text-shadow: 0px 0px 15px rgba(0,0,0,0.2);
+                    }
+
+                    &.black {
+                        color: #333;
+                        text-shadow: 0px 0px 15px rgba(0,0,0,0.2);
+                    }
+                }
+
+                h4 {
+                    font-weight: 700;
+
+                    @include media-breakpoint-only(lg) {
+
+                        font-size: 10px;
+                    }
+
+                &.white {
+                    color: #fff;
+                    text-shadow: 0px 0px 15px rgba(0,0,0,0.2);
+                }
+
+                &.black {
+                    color: #333;
+                    text-shadow: 0px 0px 15px rgba(0,0,0,0.2);
+                }
+
+                }
+
+                button {
+
+                    &.white {
+                        border: 2px solid #fff;
+                        color : #fff;
+
+                        &:hover {
+                            background: #fff;
+                            color: #333;
+                        }
+                    }
+
+                    &.black {
+                        border: 2px solid #333;
+                        color : #333;
+
+                        &:hover {
+                            background: #333;
+                            color: #FFF;
+                        }
+                    }
+                }
+
+
 
                 &.box-1 {
                    background:  url('../img/box/box1.jpg');

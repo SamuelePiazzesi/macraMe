@@ -46,23 +46,27 @@
                 <div class="col">
                     <div class="box-1">
                         <div>
-                            <h2>Le ultime novità del 2018.</h2>
-                            <h4>Non lascartele sfuggire</h4>
-                            <button class="btn  btn-outline-dark">SHOP</button>
+                            <h2 class="black">Le ultime novità del 2018.</h2>
+                            <h4 class="black">Non lasciartele sfuggire.</h4>
+                            <button class="btn  btn-outline-dark black">SHOP</button>
                         </div>
                     </div>
                 </div>
                 <div class="col">
                     <div class="box-2">
                         <div>
-
+                            <h2 class="white">Non solo macramè</h2>
+                            <h4 class="white">Esplora la categoria Handmade.</h4>
+                            <button class="btn  btn-outline-dark white">SHOP</button>
                         </div>
                     </div>
                 </div>
                 <div class="col">
                     <div class="box-3">
                         <div>
-
+                            <h2 class="black">Scopri i pattern più venduti.</h2>
+                            <h4 class="black">Scegli quello giusto.</h4>
+                            <button class="btn  btn-outline-dark black">SHOP</button>
                         </div>
                     </div>
                 </div>

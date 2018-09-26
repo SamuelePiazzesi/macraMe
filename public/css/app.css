@@ -10590,7 +10590,7 @@ body {
 .navbar #dropdown-custom .dropdown-container .right div {
   width: 27%;
   display: inline-block;
-  margin-left: 40px;
+  margin-left: 0px;
   margin-right: 0px;
   padding: 10px;
 }
@@ -10634,7 +10634,7 @@ body {
 }
 
 .navbar #toggle-menu {
-  background: #A7BED3;
+  background: #212d47;
   height: 100vh;
   width: 104vw;
   position: absolute;
@@ -10652,7 +10652,7 @@ body {
 
 .navbar #toggle-menu div {
   height: 75px;
-  border-bottom: 2px solid #3f89a6;
+  border-bottom: 2px solid #212d47;
   background: #385d7a;
 }
 
@@ -10695,13 +10695,13 @@ body {
 .navbar #toggle-menu div#sales {
   height: 120px;
   margin-top: 20px;
-  border-bottom: 2px solid #3f89a6;
+  border-bottom: 2px solid #212d47;
 }
 
 .navbar #toggle-menu div#contacts {
   height: 200px;
   margin-top: 20px;
-  border-bottom: 2px solid #3f89a6;
+  border-bottom: 2px solid #212d47;
 }
 
 .navbar #toggle-menu div#contacts span {
@@ -10851,7 +10851,7 @@ body {
 }
 
 #boxes > div .col div {
-  height: 20vw;
+  height: 16vw;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -10874,8 +10874,68 @@ body {
   }
 }
 
+#boxes > div .col div h2 {
+  font-weight: 700;
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  #boxes > div .col div h2 {
+    font-size: 20px;
+  }
+}
+
+#boxes > div .col div h2.white {
+  color: #fff;
+  text-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
+}
+
+#boxes > div .col div h2.black {
+  color: #333;
+  text-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
+}
+
+#boxes > div .col div h4 {
+  font-weight: 700;
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  #boxes > div .col div h4 {
+    font-size: 10px;
+  }
+}
+
+#boxes > div .col div h4.white {
+  color: #fff;
+  text-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
+}
+
+#boxes > div .col div h4.black {
+  color: #333;
+  text-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
+}
+
+#boxes > div .col div button.white {
+  border: 2px solid #fff;
+  color: #fff;
+}
+
+#boxes > div .col div button.white:hover {
+  background: #fff;
+  color: #333;
+}
+
+#boxes > div .col div button.black {
+  border: 2px solid #333;
+  color: #333;
+}
+
+#boxes > div .col div button.black:hover {
+  background: #333;
+  color: #FFF;
+}
+
 #boxes > div .col div.box-1 {
-  background: url(/images/box1.jpg?80a6a2921cde04cc056da16424cb8727);
+  background: url(/images/box1.jpg?dcac723933761581275c83258a36429c);
   background-size: cover;
 }
 
