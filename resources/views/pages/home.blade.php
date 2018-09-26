@@ -40,4 +40,34 @@
           </div>
     </section>
 
+    <section id="boxes">
+        <div>
+            <div class="row">
+                <div class="col">
+                    <div class="box-1">
+                        <div>
+                            <h2>Le ultime novità del 2018.</h2>
+                            <h4>Non lascartele sfuggire</h4>
+                            <button class="btn  btn-outline-dark">SHOP</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="box-2">
+                        <div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="box-3">
+                        <div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
 @endsection

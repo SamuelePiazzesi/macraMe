@@ -193,7 +193,7 @@ body {
         }
 
 
-           background: rgb(63, 137, 166);
+           background: #A7BED3;
            height: 100vh;
            width: 104vw;
            position: absolute;
@@ -335,8 +335,8 @@ body {
                     font-weight: 700 !important;
                     color: #fff;
 
-                    @include media-breakpoint-down(sm) {
-                        font-size: 30px;
+                    @include media-breakpoint-down(md) {
+                        font-size: 40px;
                     }
                 }
 
@@ -362,7 +362,7 @@ body {
                     color: #333;
 
                     @include media-breakpoint-down(sm) {
-                        font-size: 30px;
+                        font-size: 40px;
                     }
                 }
 
@@ -382,7 +382,7 @@ body {
     }
 
     .carousel-image-1 {
-        background: url('../../public/img/showcase/show1.jpg') no-repeat center center fixed;
+        background: url('../img/showcase/show1.jpg') no-repeat center center fixed;
         background-size: cover;
         overflow: hidden;
 
@@ -390,15 +390,64 @@ body {
     }
 
     .carousel-image-2 {
-        background: url('../../public/img/showcase/show2.jpg')no-repeat center center fixed;
+        background: url('../img/showcase/show2.jpg')no-repeat center center fixed;
         background-size: cover;
         overflow: hidden;
 
     }
 
     .carousel-image-3 {
-        background: url('../../public/img/showcase/show3.jpg')no-repeat center center fixed;
+        background: url('../img/showcase/show3.jpg')no-repeat center center fixed;
         background-size: cover;
         overflow: hidden;
     }
+}
+
+#boxes {
+
+    >div {
+
+        margin-top: 10px;
+
+        .col {
+
+            @include media-breakpoint-down(md) {
+                @include make-col(12);
+
+            }
+
+            padding: 0 5px;
+
+            div {
+
+                height: 20vw;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+
+                @include media-breakpoint-down(md) {
+
+                    height: 60vw;
+                    margin-bottom: 10px;
+                }
+
+                &.box-1 {
+                   background:  url('../img/box/box1.jpg');
+                   background-size: cover;
+                }
+
+                &.box-2 {
+                    background:  url('../img/box/box2.jpg');
+                    background-size: cover;
+                 }
+
+                 &.box-3 {
+                    background:  url('../img/box/box3.jpg');
+                    background-size: cover;
+                 }
+            }
+        }
+    }
+
 }
