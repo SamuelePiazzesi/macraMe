@@ -13705,16 +13705,64 @@ module.exports = __webpack_require__(36);
 
 __webpack_require__(12);
 
+/*  DROPDOWN HOVER HOMEPAGE   */
+
 $('.dropdown').hover(function () {
     $(this).find('#dropdown-custom').stop(true, true).delay(200).fadeIn(300);
 }, function () {
     $(this).find('#dropdown-custom').stop(true, true).delay(200).fadeOut(300);
 });
 
+/* CUSTOM TOGGLE MENU HOMEPAGE */
+
 $(document).ready(function () {
     $("#toggle-button, #mobile-toggle-button").click(function () {
         $("#toggle-menu").slideToggle();
     });
+});
+
+/* TEXT ROATOR HOMEPAGE */
+
+(function ($) {
+    $.fn.extend({
+        rotaterator: function rotaterator(options) {
+
+            var defaults = {
+                fadeSpeed: 500,
+                pauseSpeed: 100,
+                child: null
+            };
+
+            var options = $.extend(defaults, options);
+
+            return this.each(function () {
+                var o = options;
+                var obj = $(this);
+                var items = $(obj.children(), obj);
+                items.each(function () {
+                    $(this).hide();
+                });
+                if (!o.child) {
+                    var next = $(obj).children(':first');
+                } else {
+                    var next = o.child;
+                }
+                $(next).fadeIn(o.fadeSpeed, function () {
+                    $(next).delay(o.pauseSpeed).fadeOut(o.fadeSpeed, function () {
+                        var next = $(this).next();
+                        if (next.length == 0) {
+                            next = $(obj).children(':first');
+                        }
+                        $(obj).rotaterator({ child: next, fadeSpeed: o.fadeSpeed, pauseSpeed: o.pauseSpeed });
+                    });
+                });
+            });
+        }
+    });
+})(jQuery);
+
+$(document).ready(function () {
+    $('#rotate').rotaterator({ fadeSpeed: 500, pauseSpeed: 100 });
 });
 
 /***/ }),
