@@ -10816,19 +10816,19 @@ body {
 }
 
 #showcase .carousel-image-1 {
-  background: url(/images/show1.jpg?2585fde97edee9d465288719f74479e1) no-repeat center center fixed;
+  background: url("/macraMe/public/images/show1.jpg") no-repeat center center fixed;
   background-size: cover;
   overflow: hidden;
 }
 
 #showcase .carousel-image-2 {
-  background: url(/images/show2.jpg?17d6fe6e93e10d9a6a97a60e835a126b) no-repeat center center fixed;
+  background: url("/macraMe/public/images/show2.jpg") no-repeat center center fixed;
   background-size: cover;
   overflow: hidden;
 }
 
 #showcase .carousel-image-3 {
-  background: url(/images/show3.jpg?91cf25c44f37006b220908c68d1138dd) no-repeat center center fixed;
+  background: url("/macraMe/public/images/show3.jpg") no-repeat center center fixed;
   background-size: cover;
   overflow: hidden;
 }
@@ -10935,17 +10935,17 @@ body {
 }
 
 #boxes > div .col div.box-1 {
-  background: url(/images/box1.jpg?dcac723933761581275c83258a36429c);
+  background: url("/macraMe/public/images/box1.jpg");
   background-size: cover;
 }
 
 #boxes > div .col div.box-2 {
-  background: url(/images/box2.jpg?638e7bba30f2ddd425cf75221f06e50d);
+  background: url("/macraMe/public/images/box2.jpg");
   background-size: cover;
 }
 
 #boxes > div .col div.box-3 {
-  background: url(/images/box3.jpg?fbf1f7f8e7ce337b06268b6c76f6cae3);
+  background: url("/macraMe/public/images/box3.jpg");
   background-size: cover;
 }
 

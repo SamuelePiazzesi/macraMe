@@ -380,7 +380,7 @@ body {
     }
 
     .carousel-image-1 {
-        background: url('../img/showcase/show1.jpg') no-repeat center center fixed;
+        background: url('/macraMe/public/images/show1.jpg') no-repeat center center fixed;
         background-size: cover;
         overflow: hidden;
 
@@ -388,14 +388,14 @@ body {
     }
 
     .carousel-image-2 {
-        background: url('../img/showcase/show2.jpg')no-repeat center center fixed;
+        background: url('/macraMe/public/images/show2.jpg')no-repeat center center fixed;
         background-size: cover;
         overflow: hidden;
 
     }
 
     .carousel-image-3 {
-        background: url('../img/showcase/show3.jpg')no-repeat center center fixed;
+        background: url('/macraMe/public/images/show3.jpg')no-repeat center center fixed;
         background-size: cover;
         overflow: hidden;
     }
@@ -496,17 +496,17 @@ body {
 
 
                 &.box-1 {
-                   background:  url('../img/box/box1.jpg');
+                   background:  url('/macraMe/public/images/box1.jpg');
                    background-size: cover;
                 }
 
                 &.box-2 {
-                    background:  url('../img/box/box2.jpg');
+                    background:  url('/macraMe/public/images/box2.jpg');
                     background-size: cover;
                  }
 
                  &.box-3 {
-                    background:  url('../img/box/box3.jpg');
+                    background:  url('/macraMe/public/images/box3.jpg');
                     background-size: cover;
                  }
             }
