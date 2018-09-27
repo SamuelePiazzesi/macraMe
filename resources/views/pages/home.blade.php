@@ -74,4 +74,10 @@
         </div>
     </section>
 
+    <section id="client-opinions">
+        <div>
+
+        </div>
+    </section>
+
 @endsection

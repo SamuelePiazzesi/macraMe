@@ -23,7 +23,7 @@ $(document).ready(function(){
     });
 });
 
-/* TEXT ROATOR HOMEPAGE */
+/* TEXT ROTATOR HOMEPAGE */
 
 (function($){
     $.fn.extend({
