@@ -60,5 +60,5 @@ $(document).ready(function(){
 })(jQuery);
 
 $(document).ready(function() {
-    $('#rotate').rotaterator({fadeSpeed:500, pauseSpeed:100});
+    $('#rotate').rotaterator({fadeSpeed:1000, pauseSpeed:600});
 });

@@ -76,7 +76,49 @@
 
     <section id="client-opinions">
         <div>
+            <h1>I nostri clienti</h1>
+            <div id="rotate">
+                <div>
+                    <h2>"Sono stata molto contenta del mio acquisto."</h2>
+                    <h5>Elena da Caserta</h5>
+                </div>
+                <div>
+                    <h2>"Trame veramente ben fatte e articolate."</h2>
+                    <h5>Milos da Cosenza</h5>
+                </div>
+                <div>
+                    <h2>"Anche i prodotti handmade mi hanno colpito molto"</h2>
+                    <h5>Penelope da Milano</h5>
+                </div>
+                <div>
+                    <h2>"Il regalo perfetto per ogni occasione"</h2>
+                    <h5>Gennaro da Napoli</h5>
+                </div>
+            </div>
+        </div>
+    </section>
 
+    <section id="footer">
+        <div class="row">
+            <div class="col">
+                <div>
+                    <div>
+
+                    </div>
+                    <div>
+
+                    </div>
+                    <div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+
+            </div>
+            <div class="col">
+
+            </div>
         </div>
     </section>
 

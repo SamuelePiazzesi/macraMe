@@ -10949,3 +10949,69 @@ body {
   background-size: cover;
 }
 
+#client-opinions > div {
+  background-color: #385d7a;
+  color: white;
+  height: 400px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 10px;
+}
+
+#client-opinions > div h1 {
+  font-size: 30px !important;
+  letter-spacing: 1px !important;
+  text-transform: uppercase;
+  color: white;
+  font-weight: 400;
+  margin-bottom: 40px;
+  opacity: 0.8;
+  margin-top: 10px;
+}
+
+@media (max-width: 767.98px) {
+  #client-opinions > div h1 {
+    font-size: 20px !important;
+  }
+}
+
+#client-opinions > div #rotate div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+@media (max-width: 767.98px) {
+  #client-opinions > div #rotate div h2 {
+    font-size: 15px !important;
+  }
+}
+
+#client-opinions > div #rotate div h5 {
+  text-transform: uppercase;
+  font-size: 15px;
+  margin-top: 10px;
+  opacity: 0.8;
+}
+
