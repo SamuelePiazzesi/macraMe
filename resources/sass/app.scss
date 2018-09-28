@@ -294,7 +294,7 @@ body {
 
     .navbar-brand-centered {
         position: absolute;
-        left: 50%;
+        left: 51vw;
         display: block;
         width: 180px;
         text-align: center;
@@ -437,6 +437,11 @@ body {
                         font-size: 20px;
                     }
 
+                    @include media-breakpoint-down(xs) {
+
+                        font-size: 20px;
+                    }
+
                     font-weight: 700;
 
                     &.white {
@@ -454,6 +459,11 @@ body {
                     font-weight: 700;
 
                     @include media-breakpoint-only(lg) {
+
+                        font-size: 10px;
+                    }
+
+                    @include media-breakpoint-down(xs) {
 
                         font-size: 10px;
                     }
@@ -542,6 +552,8 @@ body {
                 font-size: 20px !important;
             }
 
+
+
         }
 
        #rotate {
@@ -554,20 +566,177 @@ body {
 
                h2 {
                    @include media-breakpoint-down(sm) {
-                       font-size: 15px !important;
+                       font-size: 20px !important;
                    }
+
+                   @include media-breakpoint-down(xs) {
+                    font-size: 10px !important;
+                }
                }
+
 
                h5 {
                    text-transform: uppercase;
                    font-size: 15px;
                    margin-top: 10px;
                    opacity: 0.8;
+
+                   @include media-breakpoint-down(xs) {
+                    font-size: 15px !important;
+                }
                }
            }
        }
 
     }
+
+}
+
+#footer {
+    padding: 40px 0;
+    background-color: #f1f2f4;
+
+
+    .row {
+
+
+        .col {
+            padding: 0;
+            border-right: 1px solid #e0e0e0;
+
+            @include media-breakpoint-down(sm) {
+               @include make-col(12);
+               margin-bottom: 20px;
+             }
+            #footer-links {
+                display: flex;
+                flex-direction: row;
+                align-items: flex-start;
+                justify-content: center;
+                padding: 20px;
+
+                @include media-breakpoint-down(sm) {
+                    border-bottom: 1px solid #e0e0e0;
+                  }
+
+
+                    div {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: flex-start;
+                    margin: 0 20px;
+
+                    h1 {
+
+                        font-size: 15px !important;
+                        letter-spacing: 1px !important;
+                        text-transform: uppercase;
+                        color: $primary;
+                        font-weight: 700;
+                        margin-bottom: 10px;
+                        margin-top: 12px;
+
+                    }
+
+                    a {
+                        text-decoration: none;
+                        color: $primary;
+                        font-size: 13px;
+
+                        &:hover {
+                            opacity: 0.7;
+                        }
+                    }
+                }
+            }
+
+            #social {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                padding: 20px;
+
+
+                a {
+                    text-decoration: none;
+                    color: $primary;
+                    font-size: 30px;
+                    font-weight: 700;
+
+
+                    &:hover {
+                        opacity: 0.7;
+                    }
+
+                    i {
+                        margin: 0 10px;
+                    }
+                }
+            }
+
+            #newsletter {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                padding: 20px;
+
+                h2 {
+                    font-size: 20px;
+                    font-weight: 700;
+                }
+
+                h5 {
+                    font-size: 15px;
+
+                }
+
+                .form-control {
+                    border-radius: 0;
+                    border: 2px solid $primary;
+
+
+                    &:focus {
+                        box-shadow: none;
+                    }
+                }
+
+                button {
+                    margin: 0 !important;
+                    border-radius: 0;
+                    border: 1.4px solid $primary;
+
+                }
+
+
+
+
+                div {
+                    margin: 10px 0;
+
+
+
+                    i {
+                        font-size: 20px;
+                        margin: 0 5px;
+                    }
+                }
+
+                .small-icons {
+                   visibility: hidden;
+
+                   @include media-breakpoint-down(lg) {
+                    visibility: visible;
+                  }
+                }
+            }
+        }
+
+    }
+
+
 
 }
 

@@ -97,29 +97,4 @@
             </div>
         </div>
     </section>
-
-    <section id="footer">
-        <div class="row">
-            <div class="col">
-                <div>
-                    <div>
-
-                    </div>
-                    <div>
-
-                    </div>
-                    <div>
-
-                    </div>
-                </div>
-            </div>
-            <div class="col">
-
-            </div>
-            <div class="col">
-
-            </div>
-        </div>
-    </section>
-
 @endsection

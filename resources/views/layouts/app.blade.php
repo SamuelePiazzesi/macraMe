@@ -28,7 +28,7 @@
         <main class="content">
             @yield('content')
         </main>
-
+        @include('inc.footer')
 
         <script src="{{ asset('js/app.js') }}" defer ></script>
 
