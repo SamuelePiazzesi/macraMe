@@ -13,19 +13,19 @@
               <div class="carousel-item carousel-image-1 active">
                 <div class="carousel-caption  white">
                     <h1>Nuova collezione autunnale. </h1>
-                    <button class="btn  btn-lg btn-outline-dark">SCOPRI</button>
+                    <a class="btn  btn-lg btn-outline-dark">SCOPRI</a>
                   </div>
               </div>
               <div class="carousel-item carousel-image-2 ">
                 <div class="carousel-caption  black">
                     <h1>I nuovi pattern. </h1>
-                    <button class="btn  btn-lg btn-outline-dark">SCOPRI</button>
+                    <a class="btn  btn-lg btn-outline-dark">SCOPRI</a>
                   </div>
               </div>
               <div class="carousel-item carousel-image-3 ">
                 <div class="carousel-caption  white">
                     <h1>Le ultime novità. </h1>
-                    <button class="btn  btn-lg btn-outline-dark">SCOPRI</button>
+                    <a  href="{{ url('/shop/new') }}" class="btn  btn-lg btn-outline-dark">SCOPRI</a>
                   </div>
               </div>
             </div>

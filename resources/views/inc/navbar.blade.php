@@ -21,7 +21,7 @@
                                         <a href="#">I più venduti</a>
                                     </p>
                                     <p>
-                                        <a href="#">Nuovi arrivi</a>
+                                        <a href="{{ url('/shop/new') }}">Nuovi arrivi</a>
                                     </p>
                                     <p>
                                         <a href="#">In saldo</a>
@@ -58,7 +58,7 @@
                     </div>
                 </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Nuovi Prodotti</a>
+                <a class="nav-link" href="{{ url('/shop/new') }}">Nuovi Prodotti</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#">Migliori</a>
@@ -86,7 +86,7 @@
     </div>
     <div  id="toggle-menu">
         <div class="mt-4">
-            <a>
+            <a href="{{ url('/shop/new') }}">
                 <p>Nuovi arrivi</p>
             </a>
         </div>

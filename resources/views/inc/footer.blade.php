@@ -6,7 +6,7 @@
                     <h1>Negozio</h1>
                     <a href="#">Shop</a>
                     <a href="#">migliori</a>
-                    <a href="#">Novità</a>
+                    <a href="{{ url('/shop/new') }}">Novità</a>
                 </div>
                 <div>
                     <h1>Info</h1>

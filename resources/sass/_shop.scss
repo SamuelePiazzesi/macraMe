@@ -1,0 +1,19 @@
+
+#new-header {
+
+  div {
+    height: 300px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url('/macraMe/public/images/new.jpg')no-repeat center center fixed;
+    background-size: cover;
+    overflow: hidden;
+
+    h1 {
+      color: #fff;
+    }
+  }
+
+}

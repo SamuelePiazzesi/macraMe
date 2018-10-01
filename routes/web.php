@@ -14,3 +14,8 @@
 Route::get('/', function () {
     return view('pages.home');
 });
+
+
+Route::get('/shop/new', function () {
+    return view('shop.new-arrivals');
+});
